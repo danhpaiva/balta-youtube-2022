@@ -1,18 +1,23 @@
 using MiniTodo.Data;
 using MiniTodo.ViewModels;
-using Flunt;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>();
 
+//Add Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.MapGet("/v1/todos", (AppDbContext context) =>
     {
         var todos = context.Todos.ToList();
         return Results.Ok(todos);
     }
-);
+).Produces<Todo>();
 
 app.MapPost("/v1/todos", (
     AppDbContext context,
