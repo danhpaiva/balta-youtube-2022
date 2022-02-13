@@ -19,7 +19,7 @@
 
 API developed using:
 - Net 6
-- EntitiFrameWorkCore
+- EntityFrameWorkCore
 - SQLite
 
 <h2 id=installation>☑️ Installation</h2>
