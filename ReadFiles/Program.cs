@@ -19,7 +19,7 @@ static void ReadFile(string filePath)
   ReadLine();
 }
 
-static void ReadLineLine(string filePath)
+static void ReadLines(string filePath)
 {
   // Lê um arquivo linha a linha
   var lines = File.ReadAllLines(filePath);
