@@ -27,7 +27,9 @@ Study and develop codes that will be useful in everyday life.
 
 <h2 id=installation>☑️ Installation</h2>
 
-...
+1. Clone the repository
+2. Choose the project
+3. Run it
 
 <h2 id=technology>🧰 Technology</h2>
 
