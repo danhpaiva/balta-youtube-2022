@@ -6,7 +6,7 @@ using var file = new StreamReader(filePath);
 string? line;
 
 while ((line = file.ReadLine()) != null)
-  Console.WriteLine(line);
+  WriteLine(line);
 
 file.Close();
 ReadLine();
