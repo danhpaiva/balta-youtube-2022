@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://github.com/danhpaiva/balta-youtube-2022">Minimal Api - Net 6</a>
+<a href="https://github.com/danhpaiva/balta-youtube-2022">ASP.NET Minimal APIs</a>
 </h1>
 
 <p align="center">
@@ -21,6 +21,10 @@ API developed using:
 - Net 6
 - EntityFrameWorkCore
 - SQLite
+
+~~~
+dotnet new web -o MiniTodo
+~~~
 
 <h2 id=installation>☑️ Installation</h2>
 
