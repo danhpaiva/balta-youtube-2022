@@ -10,5 +10,18 @@ namespace ImplicitOperators
     {
       return $"+{CountryCode} ({Area}) {Number}";
     }
+
+    public static implicit operator string(Phone phone) => $"+{phone.CountryCode} ({phone.Area}) {phone.Number}";
+
+    public static implicit operator Phone(string phone)
+    {
+      var data = phone.Split(" ");
+      return new Phone
+      {
+        CountryCode = data[0],
+        Area = data[1],
+        Number = data[2]
+      };
+    }
   }
 }

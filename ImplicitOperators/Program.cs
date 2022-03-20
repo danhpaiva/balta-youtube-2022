@@ -11,5 +11,10 @@ Phone phone = new Phone
   Number = "31313131"
 };
 
-WriteLine(phone);
+var telefone = "55 31 99999999";
+telefone = phone;
+
+var telefoneDois = "55 31 99999997";
+phone = telefoneDois;
+
 ReadLine();
