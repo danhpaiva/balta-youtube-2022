@@ -17,4 +17,14 @@ telefone = phone;
 var telefoneDois = "55 31 99999997";
 phone = telefoneDois;
 
+var user = new User
+{
+  Active = true,
+  Id = 7,
+  Password = "12345",
+  UserName = "danhpaiva"
+};
+
+UserViewModel userViewModel = user;
+
 ReadLine();
