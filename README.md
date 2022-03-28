@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="src\logo.png" width="400" alt="Balta">
+    <img src="src\logo.png" width="400" alt="Net">
   </a>
 </p>
 
